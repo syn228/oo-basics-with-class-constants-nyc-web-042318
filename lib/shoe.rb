@@ -7,7 +7,7 @@ class Shoe
   
   def initialize(brand)
     @brand = brand
-      BRANDS << brand.split.uniq if brand.length == 4
+      BRANDS << brand if brand.length == 4
   
   end
 
