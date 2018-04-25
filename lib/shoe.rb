@@ -7,8 +7,7 @@ class Shoe
   
   def initialize(brand)
     @brand = brand
-      BRANDS << brand if brand.length == 4
-  
+      BRANDS << brand if brand.include?("Nike")
   end
 
 
