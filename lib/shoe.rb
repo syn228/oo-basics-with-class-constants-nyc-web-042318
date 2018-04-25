@@ -19,7 +19,7 @@ class Shoe
   
   def brand=(brand)
     @brand = brand
-    BRANDS << brand if brand.length == 4
+    BRANDS << brand if brand.length == 3
   end
 
 
